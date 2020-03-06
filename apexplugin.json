@@ -1,7 +1,7 @@
 {
   "name" : "Apex Profiler",
   "version" : "1.0",
-  "description" : "This PLugin used to show user profile",
+  "description" : "This Plugin used to show user profile",
   "keywords" : ["Apex", "Profiler", "profile"],
   "homepage" : "https://www.ashishsahay.com",
   "bugs" : {
