@@ -159,8 +159,9 @@ FROM DUAL;</pre>
 </ul>
 
 # Explanation
-<a href="https://www.ashishsahay.com/2020/03/apex-user-profiler.html"> Blog</a>
-<a href="https://apex.oracle.com/pls/apex/f?p=93690:10:702064819366086::NO:::">Demo</a>
+<a href="https://www.ashishsahay.com/2020/03/apex-user-profiler.html"> <h2>Blog</h2></a>
+<br>
+<a href="https://apex.oracle.com/pls/apex/f?p=93690:10:702064819366086::NO:::"><h2>Demo</h2></a>
 
 
 # Change Log
