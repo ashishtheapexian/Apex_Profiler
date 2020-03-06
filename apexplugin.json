@@ -1,0 +1,33 @@
+{
+  "name" : "Apex Profiler",
+  "version" : "1.0",
+  "description" : "This PLugin used to show user profile",
+  "keywords" : ["Apex", "Profiler", "profile"],
+  "homepage" : "https://www.ashishsahay.com",
+  "bugs" : {
+    "url" : "https://github.com/ashishtheapexian/Apex_Profiler/issues",
+    "email" : "ashishk392@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Ashish Sahay",
+    "email" : "ashishk392@gmail.com",
+    "url" : "https://www.ashishsahay.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ashishtheapexian/Apex_Profiler.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["18.2.0"],
+      "plugin" : {
+        "internalName" : "APEX_PROFILER",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=93690:10",
+        "previewImage" : "https://raw.github.com/ashishtheapexian/Apex_Profiler/master/preview.png"
+      }
+    }
+  }
+}
