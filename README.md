@@ -5,7 +5,7 @@ APEX profile Plugin is designed to display User profile
 
 <img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif">
 
-#Sample Query
+# Sample Query
 <code> <pre>SELECT
   'Ashish' FIRST_NAME,
   'Sahay' LAST_NAME,
@@ -30,7 +30,7 @@ FROM DUAL;</pre>
 </code>
 
 
-#JSON Configuration
+# JSON Configuration
 
 <code><pre>
 {
