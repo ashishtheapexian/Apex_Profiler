@@ -21,7 +21,7 @@
  "oracle" : {
     "versions" : ["11.2.0.1", "12.1.0.1","18 C"],
     "apex" : {
-      "versions" : ["5.1.4","5.2", "18.1.0", "19.1","19.2"],
+      "versions" : ["5.1.4","5.2", "18.1.0", "19.1","19.2.0"],
       "plugin" : {
         "internalName" : "APEX_PROFILER",
         "type" : "dynamic action",
