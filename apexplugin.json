@@ -1,6 +1,6 @@
 {
   "name" : "Apex Profiler",
-  "version" : "1.0",
+  "version" : "1.1",
   "description" : "This Plugin used to show user profile",
   "keywords" : ["Apex", "Profiler", "profile"],
   "homepage" : "https://www.ashishsahay.com",
@@ -19,9 +19,9 @@
     "url" : "https://github.com/ashishtheapexian/Apex_Profiler.git"
   },
  "oracle" : {
-    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "versions" : ["11.2.0.1", "12.1.0.1","18 C"],
     "apex" : {
-      "versions" : ["18.2.0"],
+      "versions" : ["5.1.4","5.2", "18.1.0", "19.1","19.2"],
       "plugin" : {
         "internalName" : "APEX_PROFILER",
         "type" : "dynamic action",

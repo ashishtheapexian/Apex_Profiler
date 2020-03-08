@@ -6,48 +6,25 @@ whenever sqlerror exit sql.sqlcode rollback
 -- ORACLE Application Express (APEX) export file
 --
 -- You should run the script connected to SQL*Plus as the Oracle user
--- APEX_190200 or as the owner (parsing schema) of the application.
+-- APEX_050100 or as the owner (parsing schema) of the application.
 --
 -- NOTE: Calls to apex_application_install override the defaults below.
 --
 --------------------------------------------------------------------------------
 begin
 wwv_flow_api.import_begin (
- p_version_yyyy_mm_dd=>'2019.10.04'
-,p_release=>'19.2.0.00.18'
-,p_default_workspace_id=>37181779490747874089
-,p_default_application_id=>93690
-,p_default_id_offset=>0
-,p_default_owner=>'ASHISH_ME'
+ p_version_yyyy_mm_dd=>'2016.08.24'
+,p_release=>'5.1.4.00.08'
+,p_default_workspace_id=>1810418193191039
+,p_default_application_id=>108
+,p_default_owner=>'ADMIN'
 );
-end;
-/
- 
-prompt APPLICATION 93690 - Ashish Sahay Plugins
---
--- Application Export:
---   Application:     93690
---   Name:            Ashish Sahay Plugins
---   Date and Time:   22:33 Friday March 6, 2020
---   Exported By:     ASHISHHEAKER@GMAIL.COM
---   Flashback:       0
---   Export Type:     Component Export
---   Manifest
---     PLUGIN: 30430383078814959836
---   Manifest End
---   Version:         19.2.0.00.18
---   Instance ID:     63113759365424
---
-
-begin
-  -- replace components
-  wwv_flow_api.g_mode := 'REPLACE';
 end;
 /
 prompt --application/shared_components/plugins/dynamic_action/apex_profiler
 begin
 wwv_flow_api.create_plugin(
- p_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22055420708308490)
 ,p_plugin_type=>'DYNAMIC ACTION'
 ,p_name=>'APEX_PROFILER'
 ,p_display_name=>'Apex profiler'
@@ -102,11 +79,11 @@ wwv_flow_api.create_plugin(
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
 ,p_about_url=>'https://apex.oracle.com/pls/apex/f?p=93690:10:108661962681829::NO:::'
-,p_files_version=>229
+,p_files_version=>3
 );
 wwv_flow_api.create_plugin_attribute(
- p_id=>wwv_flow_api.id(30430383330903959840)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22055657866313927)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -117,8 +94,8 @@ wwv_flow_api.create_plugin_attribute(
 ,p_is_translatable=>false
 );
 wwv_flow_api.create_plugin_attribute(
- p_id=>wwv_flow_api.id(30430383705894959842)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22055939685317251)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -127,27 +104,26 @@ wwv_flow_api.create_plugin_attribute(
 ,p_is_required=>false
 ,p_default_value=>'open-apex-profile'
 ,p_is_translatable=>false
-,p_attribute_comment=>'Element it is used for triggering the profile.'
 );
 wwv_flow_api.create_plugin_attribute(
- p_id=>wwv_flow_api.id(30430384100088959842)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22056267491320889)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
 ,p_prompt=>'Items to Submit'
-,p_attribute_type=>'PAGE ITEM'
+,p_attribute_type=>'TEXT'
 ,p_is_required=>false
 ,p_is_translatable=>false
 );
 wwv_flow_api.create_plugin_attribute(
- p_id=>wwv_flow_api.id(30430384593923959842)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22056522600324536)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40
 ,p_prompt=>'SQL Source'
-,p_attribute_type=>'SQL'
+,p_attribute_type=>'TEXT'
 ,p_is_required=>false
 ,p_default_value=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'SELECT ''Ashish'' FIRST_NAME,''Sahay'' LAST_NAME ,',
@@ -172,8 +148,8 @@ wwv_flow_api.create_plugin_attribute(
 ,p_is_translatable=>false
 );
 wwv_flow_api.create_plugin_attribute(
- p_id=>wwv_flow_api.id(30430384991246959843)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22056886087328038)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
@@ -184,15 +160,15 @@ wwv_flow_api.create_plugin_attribute(
 ,p_lov_type=>'STATIC'
 );
 wwv_flow_api.create_plugin_attr_value(
- p_id=>wwv_flow_api.id(30430385320257959843)
-,p_plugin_attribute_id=>wwv_flow_api.id(30430384991246959843)
+ p_id=>wwv_flow_api.id(22057175341331374)
+,p_plugin_attribute_id=>wwv_flow_api.id(22056886087328038)
 ,p_display_sequence=>10
 ,p_display_value=>'Yes'
 ,p_return_value=>'Y'
 );
 wwv_flow_api.create_plugin_attr_value(
- p_id=>wwv_flow_api.id(30430385809988959844)
-,p_plugin_attribute_id=>wwv_flow_api.id(30430384991246959843)
+ p_id=>wwv_flow_api.id(22057530311332499)
+,p_plugin_attribute_id=>wwv_flow_api.id(22056886087328038)
 ,p_display_sequence=>20
 ,p_display_value=>'No'
 ,p_return_value=>'N'
@@ -237,8 +213,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(30431207014653963222)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22058147904339088)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_file_name=>'apex_profiler.min.css'
 ,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'
@@ -295,8 +271,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(30431207344119963224)
-,p_plugin_id=>wwv_flow_api.id(30430383078814959836)
+ p_id=>wwv_flow_api.id(22058433576339089)
+,p_plugin_id=>wwv_flow_api.id(22055420708308490)
 ,p_file_name=>'apex_profiler.min.js'
 ,p_mime_type=>'text/javascript'
 ,p_file_charset=>'utf-8'
@@ -304,9 +280,8 @@ wwv_flow_api.create_plugin_file(
 );
 end;
 /
-prompt --application/end_environment
 begin
-wwv_flow_api.import_end(p_auto_install_sup_obj => nvl(wwv_flow_application_install.get_auto_install_sup_obj, false));
+wwv_flow_api.import_end(p_auto_install_sup_obj => nvl(wwv_flow_application_install.get_auto_install_sup_obj, false), p_is_component_import => true);
 commit;
 end;
 /
