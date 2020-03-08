@@ -154,9 +154,8 @@ FROM DUAL;</pre>
 </tbody></table>
 
 # TO DO
-<ul>
-  <li>Escape special Characters</li>
-</ul>
+- [x] Comaptible with all versions of APEX
+- [ ] Escape special Characters
 
 # Explanation
 <h2><a href="https://www.ashishsahay.com/2020/03/apex-user-profiler.html"> Blog</a></h2>
