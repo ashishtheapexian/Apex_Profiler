@@ -1,7 +1,7 @@
 {
   "name" : "Apex Profiler",
   "version" : "1.1",
-  "description" : "This Plugin used to show user profile referenced by  <a href ='https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html' target='_blank'>Muqbil Khan</a> blog post",
+  "description" : "This Plugin used to show user profile referenced from Muqbil Khan blog post. Blog Url : https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html",
   "keywords" : ["Apex", "Profiler", "profile"],
   "homepage" : "https://www.ashishsahay.com",
   "bugs" : {
