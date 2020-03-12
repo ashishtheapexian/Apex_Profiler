@@ -2,6 +2,8 @@
 Apex_Profiler
 # Description 
 APEX profile Plugin is designed to display User profile
+# References 
+Big thanks to <a href="https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html">Muqbil Khan</a> for sharing this amazing idea.
 
 <img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif">
 
