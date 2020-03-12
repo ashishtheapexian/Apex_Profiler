@@ -1,7 +1,7 @@
 {
   "name" : "Apex Profiler",
   "version" : "1.0",
-  "description" : "This PLugin used to show user profile",
+  "description" : "This PLugin used to show user profile referenced by Muqbil Khan blog post",
   "keywords" : ["Apex", "Profiler", "profile"],
   "homepage" : "https://www.ashishsahay.com",
   "bugs" : {
