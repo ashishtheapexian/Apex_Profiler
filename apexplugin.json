@@ -3,7 +3,7 @@
   "version" : "1.1",
   "description" : "This Plugin used to show user profile referenced from Muqbil Khan blog post. Blog Url : https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html",
   "keywords" : ["Apex", "Profiler", "profile"],
-  "homepage" : "https://www.ashishsahay.com",
+  "homepage" : "https://github.com/ashishtheapexian/Apex_Profiler.git",
   "bugs" : {
     "url" : "https://github.com/ashishtheapexian/Apex_Profiler/issues",
     "email" : "ashishk392@gmail.com"
@@ -13,6 +13,7 @@
     "name" : "Ashish Sahay",
     "email" : "ashishk392@gmail",
     "twitter": "imapexianashish",
+    "url" : "https://www.ashishsahay.com",
     "donationUrl": "https://www.patreon.com/theapexian"
   },
   "repository" : {
