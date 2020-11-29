@@ -181,5 +181,6 @@ FROM DUAL;</pre>
   * 2020 November 29:
   	* Compatible with 5.0 and above versions 
   	* Buttons can be removed
+	* User avatar logo is visble if passed in query (Try fit size as per menu item) 
 
 :smile:
