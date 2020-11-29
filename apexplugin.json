@@ -1,6 +1,6 @@
 {
   "name" : "Apex Profiler",
-  "version" : "1.1",
+  "version" : "2.0",
   "description" : "This Plugin used to show user profile referenced from Muqbil Khan blog post. Blog Url : https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html",
   "keywords" : ["Apex", "Profiler", "profile"],
   "homepage" : "https://github.com/ashishtheapexian/Apex_Profiler",
@@ -23,7 +23,7 @@
  "oracle" : {
     "versions" : ["11.2.0.1", "12.1.0.1"],
     "apex" : {
-      "versions" : ["5.0.1","5.1.0","18.2.0"],
+      "versions" : ["5.0.0","5.1.0","18.2.0", "19.1.0", "20.2.0"],
       "plugin" : {
         "internalName" : "APEX_PROFILER",
         "type" : "dynamic action",
