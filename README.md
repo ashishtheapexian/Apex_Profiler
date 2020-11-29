@@ -5,13 +5,14 @@ APEX profile Plugin is designed to display User profile
 # References 
 Big thanks to <a href="https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html">Muqbil Khan</a> for sharing this amazing idea.
 
-<img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif">
+<img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif" height="90%", width="90%" >
 
 # Sample Query
 <code> <pre>SELECT
   'Ashish' FIRST_NAME,
   'Sahay' LAST_NAME,
   'https://1.bp.blogspot.com/-V1JkM-D5VY4/XmCZuNHGytI/AAAAAAAAdec/RsZXgr11hHM8TXuWiLyns_4L9DJ4LPD2QCK4BGAYYCw/s113/0%253Fe%253D1586390400%2526v%253Dbeta%2526t%253DrDhapAPOdu3qco8WpAs1kTxVPf0533bNvx92guVCyVw' IMAGE_SRC,
+  "https://avatars0.githubusercontent.com/u/13847003?s=60&v=4" USER_LOGO,
   'https://www.ashishsahay.com/search/label/APEX' EDIT_LINK_SRC,
   'ashishk392@gmail.com' EMAIL,
   'INCEDO INC.' ORG_NAME,
@@ -77,6 +78,11 @@ FROM DUAL;</pre>
  <td>IMAGE_SRC</td>
  <td>User&nbsp; Profile image URL</td> 
  <td>https://1.bp.blogspot.com/-V1JkM-https://www.w3schools.com/howto/img_avatar.png</td> 
+</tr>
+<tr>
+ <td>USER_LOGO</td>
+ <td>User&nbsp; Logo URL</td> 
+ <td>https://avatars0.githubusercontent.com/u/13847003?s=60&v=4</td> 
 </tr>
 <tr>
  <td>EDIT_LINK_SRC</td>
@@ -155,6 +161,10 @@ FROM DUAL;</pre>
 </tr>
 </tbody></table>
 
+# Button Visibility
+* Hide Left Button (Yes / No)
+* Hide Right Button (Yes / No)
+
 # TO DO
 - [x] Comaptible with all versions of APEX
 - [ ] Escape special Characters
@@ -166,8 +176,10 @@ FROM DUAL;</pre>
 
 
 # Change Log
-<ul>
-  <li>2020 March 06:  Initial Version 1.0.1</li>
-  <li>2020 March 08:  Compatible with 5.1 and above versions 1.1</li>
-</ul>
+  * 2020 March 06   :  Initial Version 1.0.1</li>
+  * 2020 March 08   :  Compatible with 5.1 and above versions 1.1</li>
+  * 2020 November 29:
+  	* Compatible with 5.0 and above versions 
+  	* Buttons can be removed
+
 :smile:
