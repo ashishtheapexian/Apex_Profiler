@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Plug--in_Type-DynamicAction-orange.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
+![](https://img.shields.io/badge/Plug--in_Type-Dynamic Action-orange.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
 
 # Apex_Profiler
 Apex_Profiler
