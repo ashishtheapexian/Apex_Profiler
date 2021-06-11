@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Plug--in_Type-Dynamic Action-orange.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
+![](https://img.shields.io/badge/Plug--in_Type-Dynamic%20Action-orange.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
 
 # Apex_Profiler
 Apex_Profiler
@@ -7,13 +7,14 @@ APEX profile Plugin is designed to display User profile
 # References 
 Big thanks to <a href="https://oracle-apex5.blogspot.com/2017/10/apex-builder-profil-menu.html">Muqbil Khan</a> for sharing this amazing idea.
 
-<img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif" height="90%", width="90%" >
+<img src="https://raw.githubusercontent.com/ashishtheapexian/Apex_Profiler/master/preview.gif" height="90%" width="90%" >
 
 # Sample Query
-<code> <pre>SELECT
+
+```sql
+SELECT
   'Ashish' FIRST_NAME,
-  'Sahay' LAST_NAME,
-  'https://1.bp.blogspot.com/-V1JkM-D5VY4/XmCZuNHGytI/AAAAAAAAdec/RsZXgr11hHM8TXuWiLyns_4L9DJ4LPD2QCK4BGAYYCw/s113/0%253Fe%253D1586390400%2526v%253Dbeta%2526t%253DrDhapAPOdu3qco8WpAs1kTxVPf0533bNvx92guVCyVw' IMAGE_SRC,
+  'Sahay' LAST_NAME,  'https://1.bp.blogspot.com/-V1JkM-D5VY4/XmCZuNHGytI/AAAAAAAAdec/RsZXgr11hHM8TXuWiLyns_4L9DJ4LPD2QCK4BGAYYCw/s113/0%253Fe%253D1586390400%2526v%253Dbeta%2526t%253DrDhapAPOdu3qco8WpAs1kTxVPf0533bNvx92guVCyVw' IMAGE_SRC,
   "https://avatars0.githubusercontent.com/u/13847003?s=60&v=4" USER_LOGO,
   'https://www.ashishsahay.com/search/label/APEX' EDIT_LINK_SRC,
   'ashishk392@gmail.com' EMAIL,
@@ -31,13 +32,12 @@ Big thanks to <a href="https://oracle-apex5.blogspot.com/2017/10/apex-builder-pr
   'fa fa-github' LEFT_BTN_ICON,
   'fa fa-google' RIGHT_BTN_ICON,
   'See My Blogs' EDIT_LINK_LABEL
-FROM DUAL;</pre>
-</code>
-
+FROM DUAL;
+```
 
 # JSON Configuration
 
-<code><pre>
+```JSON
 {
 	"isActiveColor": "#F44336",
 	"isInctiveColor": "#F4bc36",
@@ -46,7 +46,8 @@ FROM DUAL;</pre>
 	"marginRight": "0px",
 	"marginTop": "48px"
 }
-</pre></code>
+```
+
 <ul>
 <li>isActiveColor: Navigation bar Entry background color when APEX profiler is open  </li>
 <li>isInctiveColor: Navigation bar Entry background color when APEX profiler is closed</li>
@@ -114,7 +115,7 @@ FROM DUAL;</pre>
 <tr>
  <td>DESIGNATION</td>
  <td>User designation</td> 
- <td>Oracle Apex Developer</td> 
+ <td>Oracle APEX Developer</td> 
 </tr>
 <tr>
  <td>LEFT_BUTTON_LABEL</td>
@@ -172,7 +173,7 @@ FROM DUAL;</pre>
 - [ ] Escape special Characters
 
 # Explanation
-<h2><a href="https://www.ashishsahay.com/2020/03/apex-user-profiler.html"> Blog</a></h2>
+<h2><a href="https://blogs.ontoorsolutions.com/post/apex-user-profiler/"> Blog</a></h2>
 </br>
 <h2><a href="https://apex.oracle.com/pls/apex/f?p=93690:10:702064819366086::NO:::">Demo</a></h2>
 
